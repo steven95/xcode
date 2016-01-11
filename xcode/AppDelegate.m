@@ -4,22 +4,31 @@
 //
 //  Created by Jusive on 16/1/9.
 //  Copyright © 2016年 Jusive. All rights reserved.
-//
-
 #import "AppDelegate.h"
-
+#import "jusive 1.h"
+#import "xtCollectionViewController.h"
 @interface AppDelegate ()
 
 @end
-
 @implementation AppDelegate
-
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self setNavigationBarStyle];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+//    jusive_1 *j1 = [jusive_1 new];
+    xtCollectionViewController *xt = [xtCollectionViewController new];
+    self.window.rootViewController = xt;
+    [self.window makeKeyAndVisible];
     return YES;
+    
 }
 
+-(void)setNavigationBarStyle{
+    UINavigationBar *Nab = [UINavigationBar appearance];
+    Nab.tintColor = [UIColor greenColor];
+    NSDictionary *dic = @{NSForegroundColorAttributeName:[UIColor orangeColor]};
+    [Nab setTitleTextAttributes:dic];
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

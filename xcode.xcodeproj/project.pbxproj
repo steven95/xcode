@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E15BE031C41FB7B003A4131 /* xtCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E15BE021C41FB7B003A4131 /* xtCollectionViewController.m */; };
+		9E15BE061C42010E003A4131 /* xtcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E15BE051C42010E003A4131 /* xtcell.m */; };
+		9E15BE091C425B68003A4131 /* xtWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E15BE081C425B68003A4131 /* xtWebView.m */; };
 		9EDE1C5C1C412AE10047B19A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE1C5B1C412AE10047B19A /* main.m */; };
 		9EDE1C5F1C412AE10047B19A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE1C5E1C412AE10047B19A /* AppDelegate.m */; };
-		9EDE1C621C412AE10047B19A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE1C611C412AE10047B19A /* ViewController.m */; };
-		9EDE1C651C412AE10047B19A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDE1C631C412AE10047B19A /* Main.storyboard */; };
 		9EDE1C671C412AE10047B19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDE1C661C412AE10047B19A /* Assets.xcassets */; };
 		9EDE1C6A1C412AE10047B19A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDE1C681C412AE10047B19A /* LaunchScreen.storyboard */; };
 		9EDE1C751C412AE10047B19A /* xcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE1C741C412AE10047B19A /* xcodeTests.m */; };
 		9EDE1C801C412AE10047B19A /* xcodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE1C7F1C412AE10047B19A /* xcodeUITests.m */; };
+		9EDE1C991C412BF20047B19A /* jusive 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE1C981C412BF20047B19A /* jusive 2.m */; };
+		9EDE1C9C1C412C070047B19A /* jusive 3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE1C9B1C412C070047B19A /* jusive 3.m */; };
+		9EDE1C9F1C412C1B0047B19A /* jusive 4.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE1C9E1C412C1B0047B19A /* jusive 4.m */; };
+		9EDE1CA21C412C2F0047B19A /* jusive 5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE1CA11C412C2F0047B19A /* jusive 5.m */; };
+		9EDE1CA51C412C3B0047B19A /* jusive 6.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE1CA41C412C3B0047B19A /* jusive 6.m */; };
+		9EDE1CA81C412C690047B19A /* jusive 1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE1CA71C412C690047B19A /* jusive 1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E15BE011C41FB7B003A4131 /* xtCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xtCollectionViewController.h; sourceTree = "<group>"; };
+		9E15BE021C41FB7B003A4131 /* xtCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xtCollectionViewController.m; sourceTree = "<group>"; };
+		9E15BE041C42010E003A4131 /* xtcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xtcell.h; sourceTree = "<group>"; };
+		9E15BE051C42010E003A4131 /* xtcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xtcell.m; sourceTree = "<group>"; };
+		9E15BE071C425B68003A4131 /* xtWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xtWebView.h; sourceTree = "<group>"; };
+		9E15BE081C425B68003A4131 /* xtWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xtWebView.m; sourceTree = "<group>"; };
 		9EDE1C571C412AE10047B19A /* xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDE1C5B1C412AE10047B19A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EDE1C5D1C412AE10047B19A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EDE1C5E1C412AE10047B19A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9EDE1C601C412AE10047B19A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9EDE1C611C412AE10047B19A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9EDE1C641C412AE10047B19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EDE1C661C412AE10047B19A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EDE1C691C412AE10047B19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EDE1C6B1C412AE10047B19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 		9EDE1C7B1C412AE10047B19A /* xcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDE1C7F1C412AE10047B19A /* xcodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcodeUITests.m; sourceTree = "<group>"; };
 		9EDE1C811C412AE10047B19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDE1C971C412BF20047B19A /* jusive 2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "jusive 2.h"; sourceTree = "<group>"; };
+		9EDE1C981C412BF20047B19A /* jusive 2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "jusive 2.m"; sourceTree = "<group>"; };
+		9EDE1C9A1C412C070047B19A /* jusive 3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "jusive 3.h"; sourceTree = "<group>"; };
+		9EDE1C9B1C412C070047B19A /* jusive 3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "jusive 3.m"; sourceTree = "<group>"; };
+		9EDE1C9D1C412C1B0047B19A /* jusive 4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "jusive 4.h"; sourceTree = "<group>"; };
+		9EDE1C9E1C412C1B0047B19A /* jusive 4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "jusive 4.m"; sourceTree = "<group>"; };
+		9EDE1CA01C412C2F0047B19A /* jusive 5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "jusive 5.h"; sourceTree = "<group>"; };
+		9EDE1CA11C412C2F0047B19A /* jusive 5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "jusive 5.m"; sourceTree = "<group>"; };
+		9EDE1CA31C412C3B0047B19A /* jusive 6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "jusive 6.h"; sourceTree = "<group>"; };
+		9EDE1CA41C412C3B0047B19A /* jusive 6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "jusive 6.m"; sourceTree = "<group>"; };
+		9EDE1CA61C412C690047B19A /* jusive 1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "jusive 1.h"; sourceTree = "<group>"; };
+		9EDE1CA71C412C690047B19A /* jusive 1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "jusive 1.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E15BDFD1C41FAD1003A4131 /* xt */ = {
+			isa = PBXGroup;
+			children = (
+				9E15BE011C41FB7B003A4131 /* xtCollectionViewController.h */,
+				9E15BE041C42010E003A4131 /* xtcell.h */,
+				9E15BE051C42010E003A4131 /* xtcell.m */,
+				9E15BE021C41FB7B003A4131 /* xtCollectionViewController.m */,
+				9E15BE071C425B68003A4131 /* xtWebView.h */,
+				9E15BE081C425B68003A4131 /* xtWebView.m */,
+			);
+			path = xt;
+			sourceTree = "<group>";
+		};
 		9EDE1C4E1C412AE10047B19A = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +136,9 @@
 		9EDE1C591C412AE10047B19A /* xcode */ = {
 			isa = PBXGroup;
 			children = (
+				9EDE1C8D1C412BAE0047B19A /* Class */,
 				9EDE1C5D1C412AE10047B19A /* AppDelegate.h */,
 				9EDE1C5E1C412AE10047B19A /* AppDelegate.m */,
-				9EDE1C601C412AE10047B19A /* ViewController.h */,
-				9EDE1C611C412AE10047B19A /* ViewController.m */,
-				9EDE1C631C412AE10047B19A /* Main.storyboard */,
 				9EDE1C661C412AE10047B19A /* Assets.xcassets */,
 				9EDE1C681C412AE10047B19A /* LaunchScreen.storyboard */,
 				9EDE1C6B1C412AE10047B19A /* Info.plist */,
@@ -138,6 +171,74 @@
 				9EDE1C811C412AE10047B19A /* Info.plist */,
 			);
 			path = xcodeUITests;
+			sourceTree = "<group>";
+		};
+		9EDE1C8D1C412BAE0047B19A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9E15BDFD1C41FAD1003A4131 /* xt */,
+				9EDE1C8E1C412BAE0047B19A /* jusive 1 */,
+				9EDE1C8F1C412BAE0047B19A /* jusive 2 */,
+				9EDE1C901C412BAE0047B19A /* jusive 3 */,
+				9EDE1C911C412BAE0047B19A /* jusive 4 */,
+				9EDE1C921C412BAE0047B19A /* jusive 5 */,
+				9EDE1C931C412BAE0047B19A /* jusive 6 */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		9EDE1C8E1C412BAE0047B19A /* jusive 1 */ = {
+			isa = PBXGroup;
+			children = (
+				9EDE1CA61C412C690047B19A /* jusive 1.h */,
+				9EDE1CA71C412C690047B19A /* jusive 1.m */,
+			);
+			path = "jusive 1";
+			sourceTree = "<group>";
+		};
+		9EDE1C8F1C412BAE0047B19A /* jusive 2 */ = {
+			isa = PBXGroup;
+			children = (
+				9EDE1C971C412BF20047B19A /* jusive 2.h */,
+				9EDE1C981C412BF20047B19A /* jusive 2.m */,
+			);
+			path = "jusive 2";
+			sourceTree = "<group>";
+		};
+		9EDE1C901C412BAE0047B19A /* jusive 3 */ = {
+			isa = PBXGroup;
+			children = (
+				9EDE1C9A1C412C070047B19A /* jusive 3.h */,
+				9EDE1C9B1C412C070047B19A /* jusive 3.m */,
+			);
+			path = "jusive 3";
+			sourceTree = "<group>";
+		};
+		9EDE1C911C412BAE0047B19A /* jusive 4 */ = {
+			isa = PBXGroup;
+			children = (
+				9EDE1C9D1C412C1B0047B19A /* jusive 4.h */,
+				9EDE1C9E1C412C1B0047B19A /* jusive 4.m */,
+			);
+			path = "jusive 4";
+			sourceTree = "<group>";
+		};
+		9EDE1C921C412BAE0047B19A /* jusive 5 */ = {
+			isa = PBXGroup;
+			children = (
+				9EDE1CA01C412C2F0047B19A /* jusive 5.h */,
+				9EDE1CA11C412C2F0047B19A /* jusive 5.m */,
+			);
+			path = "jusive 5";
+			sourceTree = "<group>";
+		};
+		9EDE1C931C412BAE0047B19A /* jusive 6 */ = {
+			isa = PBXGroup;
+			children = (
+				9EDE1CA31C412C3B0047B19A /* jusive 6.h */,
+				9EDE1CA41C412C3B0047B19A /* jusive 6.m */,
+			);
+			path = "jusive 6";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +349,6 @@
 			files = (
 				9EDE1C6A1C412AE10047B19A /* LaunchScreen.storyboard in Resources */,
 				9EDE1C671C412AE10047B19A /* Assets.xcassets in Resources */,
-				9EDE1C651C412AE10047B19A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +373,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EDE1C621C412AE10047B19A /* ViewController.m in Sources */,
+				9EDE1CA51C412C3B0047B19A /* jusive 6.m in Sources */,
+				9EDE1C991C412BF20047B19A /* jusive 2.m in Sources */,
 				9EDE1C5F1C412AE10047B19A /* AppDelegate.m in Sources */,
 				9EDE1C5C1C412AE10047B19A /* main.m in Sources */,
+				9EDE1CA81C412C690047B19A /* jusive 1.m in Sources */,
+				9EDE1C9C1C412C070047B19A /* jusive 3.m in Sources */,
+				9EDE1C9F1C412C1B0047B19A /* jusive 4.m in Sources */,
+				9E15BE091C425B68003A4131 /* xtWebView.m in Sources */,
+				9E15BE061C42010E003A4131 /* xtcell.m in Sources */,
+				9EDE1CA21C412C2F0047B19A /* jusive 5.m in Sources */,
+				9E15BE031C41FB7B003A4131 /* xtCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +419,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9EDE1C631C412AE10047B19A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9EDE1C641C412AE10047B19A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9EDE1C681C412AE10047B19A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -501,6 +601,7 @@
 				9EDE1C861C412AE10047B19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EDE1C871C412AE10047B19A /* Build configuration list for PBXNativeTarget "xcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +610,7 @@
 				9EDE1C891C412AE10047B19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EDE1C8A1C412AE10047B19A /* Build configuration list for PBXNativeTarget "xcodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +619,7 @@
 				9EDE1C8C1C412AE10047B19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
